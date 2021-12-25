@@ -1,0 +1,84 @@
+ .page{
+     width:auto;
+     height:800px;
+     border-style:groove;
+}
+.headerpart{
+
+	width: auto;
+	height: 200px;
+	border-style: groove;
+	background-color: orange;
+	background-image: url(image/header.jpg);
+	background-repeat: no-repeat;
+
+}
+.linkpart{
+
+	width: auto;
+	height: 25px;
+	border-style: groove;
+	background-color: rgb(12,100,198);
+	margin-top: 5px;
+	
+
+}
+
+.linkpart a {
+
+	 color: rgb(245,246,251);
+	 text-decoration: none;
+
+}
+.linkpart a:hover{
+
+	background-color: rgb(245,246,251);
+	color: rgb(12,100,198);
+}
+.bodypart{
+
+	width: auto;
+	height: 500px;
+    border-style:groove;
+    margin-top: 5px;
+    background-image: url(image/body.gif);
+    background-repeat: no-repeat;
+
+     
+}
+.newspart{
+
+	width: 510px;
+	height: 497px;
+	border-style: groove;
+	float: right;
+}
+.newspart h1{
+
+	color: green;
+	margin-left: 15px;
+	
+}
+
+.newspart .news{
+
+	width: auto;
+	height: 410px;
+	border-style: groove;
+	background-image: url(image/manik.jpg);
+}
+.newspart .news h4{
+
+	color: dodgerblue;
+}
+.footerpart{
+
+	width: auto;
+	height: 40px;
+	border-style: groove;
+	background-color: rgb(12,100,198);
+}
+.footerpart h2{
+	color: white;
+	margin-top: 7px;
+}
